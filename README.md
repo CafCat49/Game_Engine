@@ -1,9 +1,30 @@
-Project made by Christina A.H. for the University course Game Engine Architecture in 2020, cloned repository.
-Ideally launch this in QTCreator as it already includes OpenGL
+# Game Engine (OpenGL)
 
-Important note:
-If the engine crashes on launch without any errors, make sure all libraries are installed on your PC
-and copy-paste the necessary dll file into the debug build folder.
+A custom game engine built in **C++ using OpenGL**.  
+This project explores the fundamentals of real-time graphics programming, rendering pipelines, and engine architecture.
 
-Additional libraries:
--OpenAL
+The goal of the project is to better understand how modern game engines work internally by implementing core graphics systems from scratch.
+
+---
+
+## Features
+
+- OpenGL based rendering pipeline
+- Shader system for GPU programs
+- Vertex buffer and vertex array management
+- Window and graphics context creation
+- Basic rendering loop
+- Transformations and scene rendering
+
+---
+
+## Tech Stack
+
+**Language**
+- C++
+
+**Graphics**
+- OpenGL
+
+**Libraries**
+- OpenAL (sound library)
